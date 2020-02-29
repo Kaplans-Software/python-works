@@ -42,8 +42,8 @@ class Instagram:
             print(link)
 
 
-bot=Instagram("aemtem41","demo123456")
+bot=Instagram("username","pasw")
 bot.SignIn()
-bot.followUser("ekocazeybek")
-bot.getfollower("cznburak")
+bot.followUser("targetAccount")
+bot.getfollower("targetAccount2")
 
